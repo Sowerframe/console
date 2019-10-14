@@ -1,0 +1,19 @@
+{
+    "name": "sower/console",
+    "description": "console",
+    "license": "Apache-2.0",
+    "authors": [
+	
+    ],
+    "require": {
+	    "php": ">=7.2.0",
+		"ext-swoole": ">=4.3",
+        "sower/frame": "~1.0.0",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sower\\console\\": "src"
+        }
+    }
+}

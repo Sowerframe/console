@@ -1,0 +1,13 @@
+<?php
+
+namespace {%namespace%};
+
+use sower\Model;
+
+/**
+ * @mixin sower\Model
+ */
+class {%className%} extends Model
+{
+    //
+}
